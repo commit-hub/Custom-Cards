@@ -1,0 +1,122 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,200&display=swap');
+@import 
+url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Rajdhani:wght@300&display=swap');
+
+:root{
+    --FF-title:'IBM Plex Sans', sans-serif;
+}
+
+html, 
+body{
+    margin: 0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+
+/* *{
+    border: 2px solid yellow;
+} */
+
+body{
+    background-color: rgb(204, 223, 166);
+    color: #fff;
+    display: block;
+}
+.container::before{
+    content:" " ;
+    width: 100%;
+}
+.container{
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px solid red;
+    /* overflow: auto; */
+    /* margin-right: 100px; */
+}
+
+.card{
+    height: 50%;
+    background-color: rgb(85, 14, 14);
+    max-height: 30%;
+    margin: 45px 6px;
+    box-shadow: 5px 5px 15px 1px rgb(85, 14, 14);
+    padding: 10px 10px;
+    border-radius: 10px ;   
+}
+
+figure{
+    margin-left: 0%;
+}
+.image_laptop_5584{
+    content: url("B.png");
+    max-width: 90%;
+    border-radius: .4em;
+    /* position: relative;
+    top: -250px;*/
+    margin-bottom: -200px; 
+    /* margin: -250px 20px 0 10px; */
+    transform: rotate(-20deg) translate(10%,-40%);
+
+}
+
+#caption_laptop_5584{
+    font-family: 'Open Sans Condensed';
+    font-size: 2rem;
+}
+
+#tag{
+    display: flex;  
+    
+}
+#tag > *{
+    flex-basis:50%;
+}
+
+#specifications-title{
+font-family: 'Rajdhani', sans-serif;
+font-weight: 1em;
+font-size: 2em;
+margin-bottom: 0px;
+}
+
+a{
+    border-radius:10px;
+    text-align: center;
+    text-shadow:1px 3px 5px rgb(236, 195, 195);
+}
+
+a:link{
+    color: #fff;
+    font-size: 2rem;
+    border: 3px dotted white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:visited{
+    color: #fff;
+}
+
+
+a:hover{
+    border-radius: 0px 20px 0px;
+}
+a:active{
+    color: yellow;
+}
+#specifications{
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: var(--FF-title);
+    font-size: 1.5rem;
+}
+
